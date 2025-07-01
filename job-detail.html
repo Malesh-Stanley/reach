@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Job Detail | REACH</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="img/favicon.ico" rel="icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div
+        class="top-bar text-dark row gx-0 align-items-center d-none d-lg-flex"
+      >
+        <div class="col-lg-6 px-5 text-start">
+          <small
+            ><i class="fa fa-map-marker-alt me-2"></i>Odobu II Rhino Camp, Madi
+            Okollo District Uganda</small
+          >
+          <small class="ms-4"
+            ><i class="fa fa-phone me-2"></i>Tel: +256 785846995</small
+          >
+        </div>
+        <div class="col-lg-6 px-5 text-end">
+          <small>Follow us:</small>
+          <a class="text-dark ms-3" href=""
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="text-dark ms-3" href=""><i class="fab fa-twitter"></i></a>
+          <a class="text-dark ms-3" href=""
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a class="text-dark ms-3" href=""><i class="fab fa-instagram"></i></a>
+          <a href="#" class="btn btn-outline-primary btn-sm px-3"
+            ><i class="fa fa-user me-1"></i>Sign Up</a
+          >
+          <a href="#" class="btn btn-outline-primary btn-sm px-3"
+            ><i class="fa fa-sign-in-alt me-1"></i>Login</a
+          >
+        </div>
+      </div>
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+          <img src="img/logo.png" alt="Logo" height="50" />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Jobs</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="jobs.html" class="dropdown-item">Job Listing</a>
+                <a href="job-detail.html" class="dropdown-item active"
+                  >Job Details</a
+                >
+                <a href="#" class="dropdown-item">Post a Job</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Candidates</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="#" class="dropdown-item">Candidate Listing</a>
+                <a href="candidate-detail.html" class="dropdown-item"
+                  >Candiate Details</a
+                >
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Careers</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="service.html" class="dropdown-item">Training Hub</a>
+                <a href="#" class="dropdown-item">Generate CV</a>
+                <a href="#" class="dropdown-item">Blog</a>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Explore</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="donate.html" class="dropdown-item">Support Us</a>
+                <a href="team.html" class="dropdown-item">Our Team</a>
+                <a href="testimonial.html" class="dropdown-item"
+                  >Success Stories</a
+                >
+                <a href="404.html" class="dropdown-item">404 Page</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <div class="d-none d-lg-flex ms-2 align-items-center">
+            <a class="btn btn-outline-primary py-2 px-3 me-2" href="">
+              Donate
+              <div
+                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+              >
+                <i class="fa fa-arrow-right"></i>
+              </div>
+            </a>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle"
+                type="button"
+                id="languageDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="min-width: 56px"
+              >
+                <i class="fa fa-globe"></i>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="languageDropdown"
+              >
+                <li><a class="dropdown-item active" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Swahili</a></li>
+                <li><a class="dropdown-item" href="#">Luganda</a></li>
+                <li><a class="dropdown-item" href="#">Luo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      ...
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header mb-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      style="background: url('img/1.jpg') center center/cover no-repeat"
+    >
+      <div class="container text-center">
+        <h1 class="display-4 text-white animated slideInDown mb-4">
+          Senior Health And Food
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Job</a>
+            </li>
+            <li class="breadcrumb-item text-primary active" aria-current="page">
+              Senior Health And Food
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="container-xxl pb-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Main Content -->
+          <div class="col-lg-8">
+            <div class="mb-4">
+              <h5 class="fw-bold text-primary mb-3">Description</h5>
+              <p>
+                Google is and always will be an engineering company. We hire
+                people with a broad set of technical skills who are ready to
+                take on some of technology's greatest challenges and make an
+                impact on millions, if not billions, of users. At Google,
+                engineers not only revolutionize search, they routinely work on
+                massive scalability and storage solutions, large-scale
+                applications and entirely new platforms for developers around
+                the world. From AdWords to Chrome, Android to YouTube, Social to
+                Local, Google engineers are changing the world.
+              </p>
+            </div>
+            <div class="mb-4">
+              <h5 class="fw-bold text-primary mb-3">Responsibilities</h5>
+              <ul>
+                <li>
+                  Contribute non trivial and site relevant, complete code on
+                  feature. Maecenas aliquet velit, id facilisis purus pulvinar.
+                </li>
+                <li>
+                  Participate in code reviews, design discussions, and team
+                  meetings.
+                </li>
+                <li>
+                  Design, implement, and maintain scalable web applications.
+                </li>
+                <li>
+                  Redesign legacy features into Vue, and pick up Java as
+                  necessary.
+                </li>
+                <li>
+                  Collaborate with the product and computing customer experience
+                  teams.
+                </li>
+                <li>
+                  Research and recommend new technologies for web applications.
+                </li>
+              </ul>
+            </div>
+            <div class="mb-4">
+              <h5 class="fw-bold text-primary mb-3">Minimum Qualifications</h5>
+              <ul>
+                <li>
+                  BABS degree in a technical field or equivalent practical
+                  experience.
+                </li>
+                <li>
+                  2 years of relevant work experience in software development.
+                </li>
+                <li>Programming experience in Java, C++, or Python.</li>
+                <li>Experience with HTML, CSS, JavaScript, and SQL.</li>
+              </ul>
+            </div>
+            <div class="mb-4">
+              <h5 class="fw-bold text-primary mb-3">How to Apply</h5>
+              <p>
+                Send your application, CV, and cover letter to our HR
+                department. Only shortlisted candidates will be contacted.
+              </p>
+            </div>
+          </div>
+          <!-- Sidebar -->
+          <div class="col-lg-4">
+            <div class="card p-4 mb-4 shadow-sm">
+              <div class="text-center mb-3">
+                <img
+                  src="img/logo.png"
+                  alt="Company Logo"
+                  style="width: 60px; height: 60px; object-fit: contain"
+                  class="mb-2"
+                />
+                <div class="fw-bold">Pay West</div>
+                <div class="small text-muted">Pay Technology Ltd.</div>
+              </div>
+              <ul class="list-unstyled mb-3">
+                <li class="mb-2">
+                  <i class="fa fa-map-marker-alt text-primary me-2"></i>Grand
+                  Central Pkwy Hollis NY 11003
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-briefcase text-primary me-2"></i>Senior Health
+                  and Food
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-list text-primary me-2"></i>Category:
+                  Healthcare
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-clock text-primary me-2"></i>Type: Full Time
+                </li>
+                <li class="mb-2">
+                  <i class="fa fa-user text-primary me-2"></i>2 Years Experience
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary w-100">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <img src="img/logo.png" alt="Logo" height="50" class="mb-4" />
+            <p>
+              REACH is a refugee-led, non-profit social venture dedicated to
+              equipping refugee youth with digital skills, mental health
+              support, and career pathways for lasting self-reliance.
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-square me-0" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-dark mb-4">Address</h5>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>Odobu II Rhino Camp
+              Refugee Settlement, Madi Okollo District Uganda
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>+256 785846995</p>
+            <p><i class="fa fa-envelope me-3"></i>reachubuganda@gmail.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-dark mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="">Our Services</a>
+            <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-dark mb-4">Newsletter</h5>
+            <p>Stay updated with our latest programs and success stories.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control bg-white w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a href="#">REACH Uganda</a>, All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              Designed By <a href="">jm Stanley</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Footer End -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
