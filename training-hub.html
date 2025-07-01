@@ -44,8 +44,9 @@
             ><i class="fa fa-phone me-2"></i>Tel: +256 785846995</small
           >
         </div>
-        <div class="col-lg-6 px-5 text-end">
-          <small>Follow us:</small>
+        <div
+          class="col-lg-6 px-5 text-end d-flex align-items-center justify-content-end gap-2"
+        >
           <a class="text-dark ms-3" href=""
             ><i class="fab fa-facebook-f"></i
           ></a>
@@ -62,6 +63,7 @@
           >
         </div>
       </div>
+
       <nav
         class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn"
         data-wow-delay="0.1s"
@@ -79,17 +81,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="index.html" class="nav-item nav-link active">Home</a>
             <div class="nav-item dropdown">
               <a
                 href="#"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                >Support</a
+                >Jobs</a
               >
               <div class="dropdown-menu m-0">
-                <a href="jobs.html" class="dropdown-item">Jobs</a>
-                <a href="#" class="dropdown-item">Apply</a>
+                <a href="jobs.html" class="dropdown-item">Job Listing</a>
+                <a href="#" class="dropdown-item">Post a Job</a>
+                <a href="job-detail.html" class="dropdown-item">Job Details</a>
               </div>
             </div>
             <div class="nav-item dropdown">
@@ -97,12 +100,13 @@
                 href="#"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                >Post</a
+                >Candidates</a
               >
               <div class="dropdown-menu m-0">
-                <a href="#" class="dropdown-item">Post a Job</a>
-                <a href="#" class="dropdown-item">Apply</a>
-                <a href="job-detail.html" class="dropdown-item">Job Details</a>
+                <a href="#" class="dropdown-item">Candidate Listing</a>
+                <a href="candidate-detail.html" class="dropdown-item"
+                  >Candiate Details</a
+                >
               </div>
             </div>
             <div class="nav-item dropdown">
@@ -113,9 +117,10 @@
                 >Careers</a
               >
               <div class="dropdown-menu m-0">
-                <a href="training-hub.html" class="dropdown-item active"
+                <a href="training-hub.html" class="dropdown-item"
                   >Training Hub</a
                 >
+                <a href="#" class="dropdown-item">Generate CV</a>
                 <a href="#" class="dropdown-item">Blog</a>
               </div>
             </div>
@@ -127,9 +132,6 @@
                 >Explore</a
               >
               <div class="dropdown-menu m-0">
-                <a href="service.html" class="dropdown-item"
-                  >Digital Training</a
-                >
                 <a href="donate.html" class="dropdown-item">Support Us</a>
                 <a href="team.html" class="dropdown-item">Our Team</a>
                 <a href="testimonial.html" class="dropdown-item"
@@ -141,7 +143,7 @@
             <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
           <div class="d-none d-lg-flex ms-2 align-items-center">
-            <a class="btn btn-outline-primary py-2 px-3" href="">
+            <a class="btn btn-outline-primary py-2 px-3 me-2" href="">
               Donate
               <div
                 class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
@@ -149,6 +151,27 @@
                 <i class="fa fa-arrow-right"></i>
               </div>
             </a>
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle"
+                type="button"
+                id="languageDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="min-width: 56px"
+              >
+                <i class="fa fa-globe"></i>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="languageDropdown"
+              >
+                <li><a class="dropdown-item active" href="#">English</a></li>
+                <li><a class="dropdown-item" href="#">Swahili</a></li>
+                <li><a class="dropdown-item" href="#">Luganda</a></li>
+                <li><a class="dropdown-item" href="#">Luo</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
